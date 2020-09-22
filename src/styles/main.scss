@@ -40,3 +40,51 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  position: relative;
+  top: -84px;
+  border-bottom: solid 2px $gray-border-color;
+  text-align: center;
+  margin: 20px;
+}
+
+.header * {
+  padding: 8px;
+}
+
+.header img {
+  border-radius: 50%;
+}
+
+.content {
+  position: relative;
+  top: -84px;
+  margin: 40px;
+}
+
+.content h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content section {
+  display: flex;
+  margin-top: 20px;
+}
+
+.content .year {
+  margin-right: 80px;
+}
+
+.content article {
+  flex: 1;
+  padding: 10px;
+  background-color: $background;
+}
+
+.content h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}

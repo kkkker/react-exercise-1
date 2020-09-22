@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
 
-class Educaton extends Component {
+class Education extends Component {
   render() {
-    return <h1>111</h1>;
+    return (
+      <section>
+        <h4 className="year">{this.props.year}</h4>
+        <article>
+          <h4>{this.props.event}</h4>
+          <p>{this.props.description}</p>
+        </article>
+      </section>
+    );
   }
 }
 
-export default Educaton;
+export default Education;
